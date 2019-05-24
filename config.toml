@@ -2,73 +2,33 @@ baseURL = ""
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "Hugo Learn Documentation"
+title = "Open source education platform for Indian Competitive exams"
 theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
   editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
-  description = "Documentation for Hugo Learn Theme"
-  author = "Mathieu Cornic"
+  description = "Open source education platform for Indian Competitive exams"
+  author = "Sourabh Aggarwal"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  # Set this to true to disable copy-to-clipboard button for inline code.
+  disableInlineCopyToClipBoard = false
+  themeVariant = "green"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Learn Theme"
+title = "Open source education platform for Indian Competitive exams"
 weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/matcornic/hugo-theme-learn"
+url = "https://github.com/sourabh2311/MuftEducation.in"
 weight = 10
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-url = "showcase"
-weight = 11
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-url = "/credits"
-weight = 30
-
-[Languages.fr]
-title = "Documentation du thème Hugo Learn"
-weight = 2
-languageName = "Français"
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> Repo Github"
-identifier = "ds"
-url = "https://github.com/matcornic/hugo-theme-learn"
-weight = 10
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Vitrine"
-url = "/showcase"
-weight = 11
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Documentation Hugo"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Crédits"
-url = "/credits"
-weight = 30
