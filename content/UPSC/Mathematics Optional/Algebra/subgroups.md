@@ -39,5 +39,6 @@ Let $G$ be a group and let $H$ be a nonempty subset of $G$. If $ab$ is in $H$ wh
 By Theorem 1, it suffices to show that $a, b \in H$ implies $ab^{-1} \in H$. So, we suppose that $a, b \in H$. Since $H$ is closed under taking inverses, we also have $b^{-1} \in H$. Thus, $ab^{-1} \in H$ by closure under multiplication.
 
 {{% notice note %}}
-A notice disclaimer
+Let $G$ be an Abelian group and $H$ and $K$ be subgroups
+of $G$. Then $HK = \\{hk \vert h \in H, k \in K\\}$ is a subgroup of $G$. (Easy to show.)
 {{% /notice %}}
