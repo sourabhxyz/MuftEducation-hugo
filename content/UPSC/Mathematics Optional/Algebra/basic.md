@@ -2,7 +2,6 @@
 title = "Basics"
 weight = 5
 pre = "<b> </b>"
-mathjax = true
 +++
 
 **Well Ordering Principle:** Every nonempty set of positive integers

@@ -2,7 +2,6 @@
 title = "Groups"
 weight = 5
 pre = "<b> </b>"
-mathjax = true
 +++
 
 **Definition:** Let G be a set. A binary operation on G is a function
@@ -28,10 +27,10 @@ say), with the corners marked on one side with the colors blue, white,
 pink, and green. This makes it easy to distinguish between motions that
 have different effects.
 
-The eight motions $R_0, R_{90}, R_{180}, R_{270}, H, V, D,$ and $D^{'}$,
+The eight motions $R\_0, R\_{90}, R\_{180}, R\_{270}, H, V, D,$ and $D'$,
 together with the operation composition, form a mathematical system
-called the dihedral group of order 8. *Note: Inverse of $R_\alpha$, L is
-$R_{360 - \alpha}$, L resp. (L is a reflection)*
+called the dihedral group of order 8. *Note: Inverse of $R\_\alpha$, L is
+$R\_{360 - \alpha}$, L resp. (L is a reflection)*
 
 The analysis carried out above for a square can similarly be done for an
 equilateral triangle or regular pentagon or, indeed, any regular $n$-gon
@@ -143,7 +142,7 @@ unique*
 
 Also, one must be careful with this notation when dealing with a
 specific group whose binary operation is addition and is denoted by
-\"+\"
+"+"
 
 ![image](/upsc/mathematics-optional/algebra/groups_15.png)
 
