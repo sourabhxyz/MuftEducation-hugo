@@ -24,8 +24,7 @@ Let $G$ be a group and $H$ a nonempty subset of $G$. If $ab^{-1}$ is in $H$ when
 **Proof:** Since the operation of $H$ is the same as that of $G$, it is clear that this operation is associative. Next, we show that $e$ is in $H$. Since $H$ is nonempty, we may pick some $x$ in H. Then, letting $a = x$ and $b = x$ in the hypothesis, we have $e = xx^{-1} = ab^{-1}$ is in $H$. To verify that $x^{-1}$ is in $H$ whenever $x$ is in $H$, all we need to do is to choose $a = e$ and $b = x$ in the statement of the theorem. Finally, the proof will be complete when we show that $H$ is closed; that is, if $x, y$ belong to $H$, we must show that $xy$ is in $H$ also. Well, we have already shown that $y^{-1}$ is in $H$ whenever $y$ is; so,letting $a = x$ and $b = y^{-1}$, we have $xy = x(y^{-1})^{-1} = ab^{-1}$ is in $H$.
 
 {{% notice note %}}
-To apply the above theorem, follow these steps:-
-
+To apply the above theorem, follow these steps:-\\
 1. Identify the property $P$ that distinguishes the elements of $H$; that is, identify a defining condition.
 2. Prove that the identity has property $P$. (This verifies that $H$ is nonempty.)
 3. Assume that two elements $a$ and $b$ have property $P$.
