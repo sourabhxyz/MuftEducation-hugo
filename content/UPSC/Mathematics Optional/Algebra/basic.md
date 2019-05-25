@@ -144,14 +144,14 @@ must show that n $\in$ S. Since n - 5 $\in$ S, there are nonnegative
 integers a and b such that n - 5 = a \* 5 + b \* 8. But then n = (a + 1)
 \* 5 + b \* 8. Thus n is in S.
 
-![image](/upsc/mathematics-optional/algebra/basic_2.png?height=80%&width=80%)
+![image](/upsc/mathematics-optional/algebra/basic_2.png)
 
-![image](/upsc/mathematics-optional/algebra/basic_3.png?height=80%&width=80%)
+![image](/upsc/mathematics-optional/algebra/basic_3.png)
 
 **Definition:** A partition of a set S is a collection of nonempty
 disjoint subsets of S whose union is S
 
-![image](/upsc/mathematics-optional/algebra/basic_4.png?height=80%&width=80%)
+![image](/upsc/mathematics-optional/algebra/basic_4.png)
 
 **Definition:** A function (or mapping) $\phi$ from a set A to a set B
 is a rule that assigns to each element a of A exactly one element b of
@@ -165,9 +165,9 @@ every a1, a2 $\in$ A, f(a1) = f(a2) implies a1 = a2.
 
 Alternatively f is one-to-one if a1 $\neq$ a2 implies f(a1) $\neq$ f(a2)
 
-![image](/upsc/mathematics-optional/algebra/basic_5.png?height=80%&width=80%)
+![image](/upsc/mathematics-optional/algebra/basic_5.png)
 
-![image](/upsc/mathematics-optional/algebra/basic_6.png?height=80%&width=80%)
+![image](/upsc/mathematics-optional/algebra/basic_6.png)
 
 *Note that 2nd and 3rd are very easy and straight forward to proof so
 don't worry*
