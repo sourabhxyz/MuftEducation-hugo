@@ -25,9 +25,9 @@ Let $G$ be a group and $H$ a nonempty subset of $G$. If $ab^{-1}$ is in $H$ when
 
 {{% notice note %}}
 To apply the above theorem, follow these steps:-\\
-1. Identify the property $P$ that distinguishes the elements of $H$; that is, identify a defining condition.
-2. Prove that the identity has property $P$. (This verifies that $H$ is nonempty.)
-3. Assume that two elements $a$ and $b$ have property $P$.
+1. Identify the property $P$ that distinguishes the elements of $H$; that is, identify a defining condition.\\
+2. Prove that the identity has property $P$. (This verifies that $H$ is nonempty.)\\
+3. Assume that two elements $a$ and $b$ have property $P$.\\
 4. Use the assumption that $a$ and $b$ have property $P$ to show that $ab^{-1}$ has property $P$.
 {{% /notice %}}
 
@@ -43,3 +43,11 @@ By Theorem 1, it suffices to show that $a, b \in H$ implies $ab^{-1} \in H$. So,
 Let $G$ be an Abelian group and $H$ and $K$ be subgroups
 of $G$. Then $HK = \\{hk \vert h \in H, k \in K\\}$ is a subgroup of $G$. (Easy to show.)
 {{% /notice %}}
+
+How do you prove that a subset of a group is not a subgroup? Here are three possible ways, any one of which guarantees that the subset is not a subgroup:
+
+1. Show that the identity is not in the set.
+2. Exhibit an element of the set whose inverse is not in the set.
+3. Exhibit two elements of the set whose product is not in the set.
+
+**Theorem 3: (Finite Subgroup Test)**  Let $H$ be a nonempty finite subset of a group $G$. If $H$ is closed under the operation of $G$, then $H$ is a subgroup of $G$.
