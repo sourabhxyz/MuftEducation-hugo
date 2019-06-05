@@ -6,7 +6,7 @@ pre = "<b> </b>"
 
 **Definition:** Let G be a set. A binary operation on G is a function
 that assigns each ordered pair of elements of G an element of G. This
-condition is called *closure*.
+condition is called _closure_.
 
 The binary operations addition modulo n and multiplication modulo n on
 the set {0, 1, 2, . . . , n - 1}, which we denote by $Z_n$, play an
@@ -29,8 +29,8 @@ have different effects.
 
 The eight motions $R\_0, R\_{90}, R\_{180}, R\_{270}, H, V, D,$ and $D'$,
 together with the operation composition, form a mathematical system
-called the dihedral group of order 8. *Note: Inverse of $R\_\alpha$, L is
-$R\_{360 - \alpha}$, L resp. (L is a reflection)*
+called the dihedral group of order 8. _Note: Inverse of $R\_\alpha$, L is
+$R\_{360 - \alpha}$, L resp. (L is a reflection)_
 
 The analysis carried out above for a square can similarly be done for an
 equilateral triangle or regular pentagon or, indeed, any regular $n$-gon
@@ -91,11 +91,7 @@ is the multiplicative inverse of b and therefore b and n are relatively
 prime). So, for each n $>$ 1, we define U(n) to be the set of all
 positive integers less than n and relatively prime to n. Then U(n) is a
 group under multiplication modulo n. (We leave it to the reader to check
-that this set is closed under this operation (suppose it is not, we have
-gcd(a, n) = 1 and gcd(b, n) = 1 but gcd(ab, n) = d, if d does not divide
-a nor b, then d = p x q where p divides a and not equal 1 and q divides
-b and not equal 1 then p divides a and n so gcd isn't 1 $\Rightarrow$
-contradiction).) For n = 10, we have U(10) = {1, 3, 7, 9}.
+that this set is closed under this operation (Proof: $at\_1 + nt\_2 = 1, bt\_3 + nt\_4 = 1 \Rightarrow abt\_1t\_3 + at\_1nt\_4 + nt\_2bt\_3 + n^2t\_2t\_4 \Rightarrow ab(..) + n(..) = 1$).) For n = 10, we have U(10) = {1, 3, 7, 9}.
 
 **Example:** The set of integers under subtraction is not a group, since
 the operation is not associative.
@@ -124,7 +120,7 @@ A consequence of the cancellation property is the fact that in a Cayley
 table for a group, each group element occurs exactly once in each row
 and column. **Proof:** Each element occurs at least once as suppose $M$
 doesn't occur in column of $R$, its not possible as we have
-$R^{-1}M =$something (binary composition). Now to prove at most 1, we
+$R^{-1}M =$ something (binary composition). Now to prove at most 1, we
 have $RM = K$ and $RN = K \Rightarrow RM = RN \Rightarrow M = N$.
 
 ![image](/upsc/mathematics-optional/algebra/groups_11.png)
@@ -137,8 +133,8 @@ So we will unambiguously denote the inverse by $g^{-1}$
 
 ![image](/upsc/mathematics-optional/algebra/groups_14.png)
 
-*Note: $ax = b \Rightarrow x = a^{-1}b$ which is unique as inverse is
-unique*
+_Note: $ax = b \Rightarrow x = a^{-1}b$ which is unique as inverse is
+unique_
 
 Also, one must be careful with this notation when dealing with a
 specific group whose binary operation is addition and is denoted by
