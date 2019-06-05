@@ -72,19 +72,29 @@ The center, $Z(G)$, of a group $G$ is the subset of elements in $G$ that commute
 
 **Theorem 4: Center is a Subgroup** The center of a group $G$ is a subgroup of $G$ (easy to prove)
 
-$$
-X(m,n)=
-\begin{cases}
-x(n),\\
-x(n-1)\\
-x(n-1)
-\end{cases}
-$$
+**Example** For $n \geq 3$,
 
-<!-- **Example** For $n$3,
-Z1D 2 􏰄 e 5R , R
-6 when n is even, when n is odd.
- n
-5R5 6 0
-0 180
-To verify this, first observe that since every rotation in Dn is a power of R360/n, rotations commute with rotations. We now investigate when a rotation commutes with a reflection. Let R be any rotation in Dn and let F be any reflection in Dn. Observe that since RF is a reflection we have RF 5 (RF )21 5 F21 R21 5 FR21. Thus, it follows that R and F commute if and only if FR 5 RF 5 FR21. By cancellation, this holds if and only ifR5R21.ButR5R21 onlywhenR5R0 orR5R180,andR180 isin Dn only when n is even. So, we have proved that Z(Dn) 5 {R0} when n is odd and Z(Dn) 5 {R0, R180} when n is even. -->
+<script type="math/tex">% <![CDATA[
+Z(D\_n) =
+\begin{cases} 
+  \{R_0, R_{180}\} & \text{when n is even}\\ 
+  \{R_0\} & \text{when n is odd} 
+\end{cases} %]]></script>
+
+To verify this, first observe that since every rotation in $D\_n$ is a power of $R\_{360/n}$, rotations commute with rotations. We now investigate when a rotation commutes with a reflection. Let $R$ be any rotation in $D\_n$ and let $F$ be any reflection in $D\_n$. Observe that since $RF$ is a reflection we have $RF = (RF)^{-1} = F^{-1}R^{-1} = FR^{-1}$. Thus, it follows that $R$ and $F$ commute if and only if $FR = RF = FR^{-1}$. By cancellation, this holds if and only if $R = R^{-1}$. But $R=R^{-1}$ only when $R=R\_0$ or $R=R\_{180}$, and $R\_{180}$ is in $D_n$ only when $n$ is even. So, we have proved that $Z(D_n) = \\{R_0\\}$ when $n$ is odd and $Z(D\_n) = \\{R_0, R\_{180}\\}$ when $n$ is even.
+
+**Definition: Centralizer of $a$ in $G$**
+Let $a$ be a fixed element of a group $G$. The centralizer of $a$ in $G$, $C(a)$, is the set of all elements in $G$ that commute with $a$. In symbols, $C(a) = \\{g \in G \vert ga = ag\\}$.
+
+**Theorem 5: $C(a)$ Is a Subgroup** (Easy to prove)
+
+Notice that for every element $a$ of a group $G$, $Z(G) \subseteq C(a)$. Also, observe that $G$ is Abelian if and only if $C(a) = G$ for all $a$ in $G$.
+
+**Example:** In $D\_4$, we have the following centralizers:
+$C(R\_0) = D\_4 = C(R\_{180})$,
+
+$C(R\_{90}) = \\{R\_0, R\_{90}, R\_{180}, R\_{270}\\} = C(R\_{270})$,
+
+$C(H) = \\{R\_0, H, R\_{180}, V\\} = C(V),$
+
+$C(D) = \\{R\_0, D, R\_{180}, D'\\} = C(D')$.
